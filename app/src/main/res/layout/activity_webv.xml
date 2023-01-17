@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".webv"
+    tools:targetApi="s">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/thumbnail_downloader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/thumb" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="380dp"
+        android:layout_height="317dp"
+        android:layout_marginBottom="160dp"
+        android:background="#22011A25"
+        android:text="@string/text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F6ECEC"
+        android:textSize="10dp"
+        android:textStyle="normal"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/goth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dynamic"
+        android:text="GO"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

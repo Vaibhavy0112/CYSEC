@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CYSEC</string>
+    <string name="thumbnail">THUMBNAIL</string>
+    <string name="search">SEARCH</string>
+    <string name="text">It is a tool that is used to download the THUMBNAIL of any youtube video in the highest quality.\n
+                              SYNTAX:-\n
+                                            https://i.ytimg.com/vi/id/maxresdefault.jpg\n
+                                            where id = Original id of the youtube video.
+    </string>
+    <string name="shod"></string>
+    <string name="welcome">WELCOME</string>
+    <string name="todo">TODO</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="thumbnail_downloader">Thumbnail downloader</string>
+    <string name="shodan">SHODAN</string>
+    <string name="go">GO</string>
+    <string name="peekyou">PeekYou</string>
+    <string name="pktxt">PeekYou places the individual at the center of the Internet. For every public weblink, PeekYou tries to answer the question,Who made it? or, where applicable, Whom is it about? So far, we\'ve answered those questions for a billion links and counting. Our technology analyzes content from over sixty social sites, news sources, homepages and blog platforms and identifies the actual people behind it, combining their scattered digital footprints into a comprehensive record of their online identity.\n\nPeekYou is one of the few free people search engines that bring you details around a person, based on their social media accounts, web profiles, email addresses, contact details, and other public records.\n\n To perform Click GO</string>
+    <string name="sho">Shodan (Sentient Hyper-Optimised Data Access Network) is a search engine designed to map and gather information about internet-connected devices and systems. Shodan is sometimes referred to as a search engine for the internet of things (IoT). \n\nApplications of the software include market research, vulnerability analysis and penetration testing, as well as hacking.\n\nShodan makes it possible to detect devices that are connected to the internet at any given time, the locations of those devices and their current users. Such devices could be in almost any type of system, including business networks, surveillance cameras, industrial control systems (ICS) and smart homes. Shodan attempts to grab the system’s banner directly, gathering the data by way of the associated server’s ports. Banner grabbing is a key step for penetration testing as it helps identify vulnerable systems. Shodan also searches corresponding exploits in the search platform’s exploit section.\nShodan is named for a character from a video game series called System Shock.\n\n</string>
+    <string name="NetC">The Netcraft Toolbar uses Netcraft\'s databases of web site information to show you all the attributes of each site you visit on the Web, including the site\'s hosting location, country, longevity and popularity. The Toolbar is compatible with Microsoft Internet Explorer, and a FireFox version is underway                                        .</string>
+    <string name="wonk">Followerwonk is a Twitter Analytics tool that finds, analyzes, and optimizes for Social Growth. Followerwonk Details. Followerwonk. Followerwonk Community. Followerwonk is a Twitter Analytics tool that finds, analyzes, and optimizes for Social Growth                                                              .</string>
+    <string name="title_activity_signin">signin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="toolboard">TOOLBOARD</string>
+</resources>

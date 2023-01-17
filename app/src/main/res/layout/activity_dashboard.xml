@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dash"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="serif"
+                android:text="@string/dashboard"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:orientation="horizontal"
+                android:rowCount="10">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/study"
+                        android:layout_width="360dp"
+                        android:layout_height="169dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardBackgroundColor="#00121111"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="15dp"
+                            android:background="#00AE3333"
+                            android:contentDescription="Thumbnail Downloader"
+                            android:src="@drawable/studym"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="130dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Study Material"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tools"
+                        android:layout_width="360dp"
+                        android:layout_height="169dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardBackgroundColor="#00121111"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="15dp"
+                            android:background="#00AE3333"
+                            android:contentDescription="Thumbnail Downloader"
+                            android:src="@drawable/tools"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="130dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Tools"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/quiz"
+                        android:layout_width="360dp"
+                        android:layout_height="169dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardBackgroundColor="#00121111"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="15dp"
+                            android:background="#00AE3333"
+                            android:contentDescription="Thumbnail Downloader"
+                            android:src="@drawable/quiz"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="130dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Practice Test"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/logout"
+                        android:layout_width="360dp"
+                        android:layout_height="169dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:cardBackgroundColor="#00FFFFFF"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="15dp"
+                            android:background="#00AE3333"
+                            android:contentDescription="Thumbnail Downloader"
+                            android:src="@drawable/lgout"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="130dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Logout"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
